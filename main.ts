@@ -5,4 +5,4 @@ let h = game.askForNumber("Enter the height of the trapezoid (cm)")
 let ab = a + b
 let d = ab / 2
 let Area = d * h
-game.splash("The area of your Trapezoid in dimensions:\" " + ab + "cm divided by 2" + "cm times" + h + "cm is" + convertToText(Area))
+game.splash("The area of your Trapezoid in dimensions:\" " + ab + "cm divided by 2" + "cm times" + h + "cm is" + convertToText(Area) + "cm")
